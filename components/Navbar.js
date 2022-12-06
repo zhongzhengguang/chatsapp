@@ -1,5 +1,5 @@
 import React from "react";
-import { GrLogout } from "react-icons/Gr";
+import { GrLogout } from "react-icons/gr";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
 function Navbar() {
