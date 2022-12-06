@@ -11,23 +11,7 @@ function Register() {
         <div className="h-[20vh] w-[30vh]">
           <BiLogIn className="w-full h-full text-white" />
         </div>
-        <form className=" flex flex-col space-y-4">
-          <input
-            className="flex items-center p-5 border-b outline-none w-full bg-black"
-            placeholder="displayName"
-            type="text"
-          />
-          <input
-            className="flex items-center p-5 border-b outline-none w-full bg-black"
-            placeholder="email"
-            type="email"
-          />
-          <input
-            className="flex items-center p-5 border-b outline-none w-full bg-black"
-            placeholder="password"
-            type="text"
-          />
-        </form>
+
         <button
           onClick={() => signInWithGoogle()}
           className="mt-10 border rounded-lg w-full p-2 h-10 hover:scale-105 ease-in  duration-300 "
